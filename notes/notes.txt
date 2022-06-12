@@ -1,0 +1,15 @@
+- A CSS pseudo-class is a keyword added to the selector that specifies a special state of the selected element. THey are used to style element in that state.
+
+Pseudo-class is applied to elements In relation to:
+1. The content of the document 
+2. History of the navigator
+3. The status of it's content
+4. The position of the mouse 
+
+- link is a meta html element, it has no closing tag so it could be called a void element or it could be a self closing tag.
+Note that you need also to set rel attribute to define the realtion with the added file. 
+Browser DON'T recognize the file extension.
+
+- px: device-independent pixel on the screen (absolute)
+
+ذ
