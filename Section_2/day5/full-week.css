@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(255, 243, 228);
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+div {
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+p {
+    color: rgb(221, 40, 40);
+}

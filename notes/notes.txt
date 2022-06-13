@@ -1,3 +1,4 @@
+Day 4:
 - A CSS pseudo-class is a keyword added to the selector that specifies a special state of the selected element. THey are used to style element in that state.
 
 Pseudo-class is applied to elements In relation to:
@@ -12,4 +13,12 @@ Browser DON'T recognize the file extension.
 
 - px: device-independent pixel on the screen (absolute)
 
-ذ
+Day 5:
+
+- text-align does not affect the element in which we add, it affects it's content. Because of that, we can not use text align with images if it is applied directly on the image. 
+- We can create a div and insert the image inside it, then apply text-align rule to the div. Here the image is considered to bt the content of the div. 
+- I do not prefer the approach used in the video (setting the text-align attribute to the body).
+- In the video it would work fine because there's no much elements in the html page. In other situation that would make a problem. It would affect the whole body.
+- In other words, you can do it by targeting a highr level element or the parent element of the image.
+
+-
