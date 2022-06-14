@@ -21,4 +21,6 @@ Day 5:
 - In the video it would work fine because there's no much elements in the html page. In other situation that would make a problem. It would affect the whole body.
 - In other words, you can do it by targeting a highr level element or the parent element of the image.
 
--
+- Inheritance: certain properties are applied to the descendants of the parent.
+- Cascading: multiple rule could be applied to the same elements (the last applied rule wins).
+- Specificity: defines which rule would be applied to a selected element.
