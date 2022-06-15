@@ -1,3 +1,4 @@
 Forms:
 1. Add an email field and check wether it's valid or not.
 2. Add password field and show the stength meter to the user.
+3. Margin collapse

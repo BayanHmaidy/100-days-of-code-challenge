@@ -1,7 +1,7 @@
 body {
   background-color: rgb(255, 243, 228);
-  font-family: "Ubuntu";
   text-align: center;
+  height: 100vh;
 }
 
 div {
@@ -10,5 +10,42 @@ div {
 }
 
 p {
-    color: rgb(221, 40, 40);
+  color: rgb(221, 40, 40);
+  margin: 28px 0 28px 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+  margin: 45px 0 45px 0;
+  font-size: 40px;
+font-family: 'Joan', serif;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(230, 50, 60);
+  color: beige;
+  border: 1px solid rgb(221, 40, 40);
+  border-radius: 5px;
+  margin: 15px;
+  font-size: larger;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  background-color: rgb(245, 151, 145);
+  margin: 35px auto 0 auto;
+  list-style: none;
+  border-radius: 14px;
+  width: 500px;
+  padding: 12px 12px;
+}
+li p {
+  color: white;
+}
+.highlight{
+    background-color: rgb(252, 107, 97);
 }
