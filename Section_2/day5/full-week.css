@@ -11,14 +11,14 @@ div {
 
 p {
   color: rgb(221, 40, 40);
-  margin: 28px 0 28px 0;
-  font-family: 'Ubuntu', sans-serif;
+  /* margin: 28px 0 28px 0; */
+  font-family: "Ubuntu", sans-serif;
 }
 
 h2 {
   margin: 45px 0 45px 0;
   font-size: 40px;
-font-family: 'Joan', serif;
+  font-family: "Joan", serif;
 }
 
 a {
@@ -27,8 +27,10 @@ a {
   color: beige;
   border: 1px solid rgb(221, 40, 40);
   border-radius: 5px;
-  margin: 15px;
+  padding: 12px 36px;
+  /* margin: 15px; */
   font-size: larger;
+  display: inline-block;
 }
 
 ul {
@@ -43,9 +45,11 @@ li {
   width: 500px;
   padding: 12px 12px;
 }
+
 li p {
   color: white;
 }
-.highlight{
-    background-color: rgb(252, 107, 97);
+
+.highlight {
+  background-color: rgb(252, 107, 97);
 }

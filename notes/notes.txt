@@ -24,3 +24,6 @@ Day 5:
 - Inheritance: certain properties are applied to the descendants of the parent.
 - Cascading: multiple rule could be applied to the same elements (the last applied rule wins).
 - Specificity: defines which rule would be applied to a selected element.
+
+- For inline elements, right and left margins would work (make sense because inline elements are set next to each other) but top and bottom margins won't have any effect for them.
+- When there's 2 block elements and both have margins, margin collapsing will occur and the biggest margin will be applied. 
