@@ -1,0 +1,41 @@
+h1 {
+  color: rgb(0, 0, 189);
+  margin-top: 50px;
+  font-size: 50px;
+}
+body {
+  background-color: rgb(242, 229, 253);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  color: rgb(242, 229, 253);
+  font-weight: 900;
+}
+main {
+  background-color: rgb(44, 44, 240);
+  border-radius: 10px;
+  width: 700px;
+  margin: 25px auto;
+  text-align: left;
+  padding: 15px;
+  color: white;
+}
+header img {
+  width: 170px;
+  height: 100px;
+  margin: 20px 0;
+}
+li {
+  list-style-type: none;
+}
+.highlighted {
+  color: hsl(41, 100%, 56%);
+  font-weight: 900;
+}
+a{
+    background-color: hsla(41, 100%, 50%, 0.966);
+    text-decoration: none;
+    padding: 7.5px 15px;
+    border-radius: 4px;
+}
