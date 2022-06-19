@@ -5,8 +5,7 @@ h1 {
 }
 body {
   background-color: rgb(242, 229, 253);
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 h2 {
   color: rgb(242, 229, 253);
@@ -17,7 +16,6 @@ main {
   border-radius: 10px;
   width: 700px;
   margin: 25px auto;
-  text-align: left;
   padding: 15px;
   color: white;
 }
@@ -28,14 +26,31 @@ header img {
 }
 li {
   list-style-type: none;
+  padding-left: 15px;
+  margin: 10px 0;
+  border-left:  5px solid transparent;
 }
 .highlighted {
   color: hsl(41, 100%, 56%);
   font-weight: 900;
+  border-color: hsl(41, 100%, 56%);
 }
-a{
-    background-color: hsla(41, 100%, 50%, 0.966);
-    text-decoration: none;
-    padding: 7.5px 15px;
-    border-radius: 4px;
+a {
+  background-color: hsla(41, 100%, 50%, 0.966);
+  text-decoration: none;
+  padding: 7.5px 15px;
+  border-radius: 4px;
+}
+header, footer {
+  text-align: center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+span{
+    background-color: hsl(41, 100%, 56%);
+    color: rgb(2, 2, 85);
+    padding: 3px; 
+    border-radius: 2px;
 }
